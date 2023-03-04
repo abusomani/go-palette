@@ -7,7 +7,7 @@ import (
 	"github.com/abusomani/go-palette/utils"
 )
 
-// Implements the Paletter interface
+// Implements the Paletter interface.
 type Palette struct {
 	// if the palette is enabled
 	enabled bool
@@ -19,7 +19,7 @@ type Palette struct {
 	specialEffects []Special
 }
 
-// New returns a new palette instance with variable options to set the styling configurations
+// New returns a new palette instance with variable options to set the styling configurations.
 func New(opts ...Option) *Palette {
 	p := &Palette{}
 
@@ -98,7 +98,7 @@ func (p *Palette) Sprintln(input ...any) string {
 	return fmt.Sprintln(wrap(p, input...))
 }
 
-// SetOptions adds self-referential options to change the properties of Palette
+// SetOptions adds self-referential options to change the properties of Palette.
 func (p *Palette) SetOptions(opts ...Option) *Palette {
 	for _, opt := range opts {
 		opt(p)
@@ -106,7 +106,7 @@ func (p *Palette) SetOptions(opts ...Option) *Palette {
 	return p
 }
 
-// Flush resets the Palette options with default values and disables the Palette
+// Flush resets the Palette options with default values and disables the Palette.
 func (p *Palette) Flush() *Palette {
 	// set the default configurations
 	df := WithDefaults()
@@ -116,7 +116,7 @@ func (p *Palette) Flush() *Palette {
 	return p
 }
 
-// getEscapeSequence formats the input string based on palette configurations
+// getEscapeSequence formats the input string based on palette configurations.
 func getEscapeSequence(p *Palette, input string) string {
 	// if palette configuration is not enabled then return the input as is
 	if !p.enabled {
@@ -158,7 +158,7 @@ func getEscapeSequence(p *Palette, input string) string {
 	return res
 }
 
-// wrap returns a styled string based on palette configuration
+// wrap returns a styled string based on palette configuration.
 func wrap(p *Palette, input ...any) string {
 	res := ""
 	for idx, s := range input {

@@ -18,7 +18,6 @@ func TestGetBackground(t *testing.T) {
 		bg := GetBackground(32)
 		assert.Equal(t, "\033[48;5;32m", bg)
 	})
-
 }
 
 func TestGetSpecialEffect(t *testing.T) {

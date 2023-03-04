@@ -11,22 +11,22 @@ const (
 	resetColor             = "\033[0m"
 )
 
-// GetForeground returns formatted foreground color
+// GetForeground returns formatted foreground color.
 func GetForeground(code int32) string {
 	return fmt.Sprintf(foregroundAnsiSequence, code)
 }
 
-// GetBackground returns formatted background color
+// GetBackground returns formatted background color.
 func GetBackground(code int32) string {
 	return fmt.Sprintf(backgroundAnsiSequence, code)
 }
 
-// GetSpecialEffect returns formatted special effect
+// GetSpecialEffect returns formatted special effect.
 func GetSpecialEffect(code int32) string {
 	return fmt.Sprintf(normalAnsiSequence, code)
 }
 
-// GetResetColor returns the reset color
+// GetResetColor returns the reset color.
 func GetResetColor() string {
 	return resetColor
 }
