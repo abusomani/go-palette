@@ -12,9 +12,9 @@ type Palette struct {
 	// if the palette is enabled
 	enabled bool
 	// foreground decides the color of the text
-	foreground *Style
+	foreground *Color
 	// background decides the background color of the text
-	background *Style
+	background *Color
 	// adds special effects like bold, italic, underline etc. to the text
 	specialEffects []Special
 }
@@ -100,6 +100,7 @@ func (p *Palette) Sprintln(input ...any) string {
 
 // SetOptions adds self-referential options to change the properties of Palette.
 func (p *Palette) SetOptions(opts ...Option) *Palette {
+	p.enabled = true
 	for _, opt := range opts {
 		opt(p)
 	}

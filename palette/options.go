@@ -5,15 +5,15 @@ package palette
 // https://commandcenter.blogspot.com/2014/01/self-referential-functions-and-design.html
 type Option func(p *Palette)
 
-// WithForeground is a self-referential function to set the foreground style.
-func WithForeground(fg Style) Option {
+// WithForeground is a self-referential function to set the foreground color.
+func WithForeground(fg Color) Option {
 	return func(p *Palette) {
 		p.foreground = &fg
 	}
 }
 
-// WithBackground is a self-referential function to set the background style.
-func WithBackground(bg Style) Option {
+// WithBackground is a self-referential function to set the background color.
+func WithBackground(bg Color) Option {
 	return func(p *Palette) {
 		p.background = &bg
 	}
