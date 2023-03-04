@@ -3,4 +3,5 @@
 ![go palette gopher](gopher.png)
 
 
-## LICENSE
+## License
+[MIT](./LICENSE)

@@ -8,7 +8,7 @@ install:
 
 .PHONY: lint
 lint:
-	go vet ./...
+	golangci-lint run
 
 .PHONY: format
 format:
