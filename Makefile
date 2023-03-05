@@ -1,10 +1,10 @@
-.PHONY: test
-test:
-	go test -race -cover ./...
-
 .PHONY: install
 install:
 	go install ./...
+
+.PHONY: test
+test:
+	go test -race -cover ./...
 
 .PHONY: lint
 lint:
