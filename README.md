@@ -1,28 +1,33 @@
-# Go-Palette 🎨
+<div align="center" id="top"> 
+  <img src="https://res.cloudinary.com/dahkenlmo/image/upload/v1678038121/gopher_jftcse.png" alt="Go-Palette" />
+  &#xa0;
+</div>
 
-![go palette gopher](./static/gopher.png)
+<h1 align="center">Go-Palette 🎨</h1>
 
-<p>
-    <a href="https://github.com/abusomani/go-palette/actions"><img src="https://github.com/abusomani/go-palette/workflows/build/badge.svg" alt="Build Status"></a>
-    <a href="https://goreportcard.com/report/github.com/abusomani/go-palette"><img src="https://goreportcard.com/badge/github.com/abusomani/go-palette" alt="Go Report Card"></a>
-    <a href="https://github.com/abusomani/go-palette/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
-</p>
+
+[![build](https://github.com/abusomani/go-palette/workflows/build/badge.svg)](https://github.com/abusomani/go-palette/actions)
+[![Github top language](https://img.shields.io/github/languages/top/abusomani/go-palette)](https://img.shields.io/github/languages/top/abusomani/go-palette)
+[![Github language count](https://img.shields.io/github/languages/count/abusomani/go-palette)](https://img.shields.io/github/languages/count/abusomani/go-palette)
+[![Repository size](https://img.shields.io/github/repo-size/abusomani/go-palette)](https://img.shields.io/github/repo-size/abusomani/go-palette)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/abusomani/go-palette/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/abusomani/go-palette)](https://goreportcard.com/report/github.com/abusomani/go-palette)
+[![Go Reference](https://pkg.go.dev/badge/github.com/abusomani/go-palette.svg)](https://pkg.go.dev/github.com/abusomani/go-palette)
+[![codecov](https://codecov.io/gh/abusomani/go-palette/branch/master/graph/badge.svg?token=DALBX2YDUQ)](https://codecov.io/gh/abusomani/go-palette)
 
 Elegant and convenient style definitions using ANSI colors for Go. 
 Fully compatible and wraps the `fmt` [library](https://pkg.go.dev/fmt) for nice terminal layouts. 
 
 
-<img 
-	src="./static/go-palette-example.png"
-	alt="Output of running the example written using Go-palette"
-/>
-
+<div align="center" id="top"> 
+  <img src="https://res.cloudinary.com/dahkenlmo/image/upload/v1678038121/go-palette-example_q5w01k.png" alt="Output of running the example written using Go-palette" />
+</div>
 
 ## Supported Colors & Formats
 
 ### Standard colors
 
-![standard colors](./static/standard-colors.png)
+![standard colors](https://res.cloudinary.com/dahkenlmo/image/upload/v1678038120/standard-colors_kbxyyi.png)
 
 The following colors are supported to be used by their names for both foreground and background as shown in [Example using color names](#example-using-color-names)
 
@@ -46,19 +51,19 @@ The following colors are supported to be used by their names for both foreground
 | BrightWhite   |   15  |
 
 #### Standard colors used as foreground as well as background
-![standard colors used as foreground as well as background](./static/standard-colors-fg-bg.png)
+![standard colors used as foreground as well as background](https://res.cloudinary.com/dahkenlmo/image/upload/v1678038120/standard-colors-fg-bg_vxr67y.png)
 
 
 ### Supported Foreground Palette
 The following palette is supported as foreground/text colors. The numbers represent the color-codes which can be used as shown in [Example using color codes](#example-using-color-codes).
 
-![complete supported foreground palette](./static/foreground-palette.png)
+![complete supported foreground palette](https://res.cloudinary.com/dahkenlmo/image/upload/v1678038121/foreground-palette_klb2o4.png)
 
 ### Supported Background Palette
 
 The following palette is supported as background colors. The numbers represent the color-codes which can be used as shown in [Example using color codes](#example-using-color-codes).
 
-![complete supported background palette](./static/background-palette.png)
+![complete supported background palette](https://res.cloudinary.com/dahkenlmo/image/upload/v1678038122/background-palette_neiykd.png)
 
 ### Supported Text Formats
 
@@ -72,7 +77,7 @@ The following text formats are supported.
 - Hidden
 - Strikethrough
 
-![supported text formats](./static/special-effects.gif)
+![supported text formats](https://res.cloudinary.com/dahkenlmo/image/upload/v1678038120/special-effects_bwuurg.gif)
 
 
 ## Installation
@@ -118,7 +123,7 @@ func main() {
 ```
 **Output**
 
-![Code output](./static/code-output.png)
+![Code output](https://res.cloudinary.com/dahkenlmo/image/upload/v1678038119/code-output_lup9j1.png)
 
 
 #### Example using Color codes
@@ -142,7 +147,7 @@ func main() {
 
 **Output**
 
-![Code output](./static/code-output.png)
+![Code output](https://res.cloudinary.com/dahkenlmo/image/upload/v1678038119/code-output_lup9j1.png)
 
 
 #### Example using Special effects
@@ -199,7 +204,7 @@ func main() {
 ```
 **Output**
 
-![Flush output](./static/flush-code-output.png)
+![Flush output](https://res.cloudinary.com/dahkenlmo/image/upload/v1678038120/flush-code-output_ejrzoh.png)
 
 ## Limitations
 
