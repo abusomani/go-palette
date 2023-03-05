@@ -1,3 +1,4 @@
 .vscode
 ssh_example_ed25519*
 .coveralls.yml
+.DS_Store
