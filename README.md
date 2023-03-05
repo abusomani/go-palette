@@ -6,14 +6,14 @@
 <h1 align="center">Go-Palette 🎨</h1>
 
 
-[![build](https://github.com/abusomani/go-palette/workflows/build/badge.svg)](https://github.com/abusomani/go-palette/actions)
+[![Build Status](https://github.com/abusomani/go-palette/workflows/build/badge.svg)](https://github.com/abusomani/go-palette/actions)
 [![Github top language](https://img.shields.io/github/languages/top/abusomani/go-palette)](https://img.shields.io/github/languages/top/abusomani/go-palette)
 [![Github language count](https://img.shields.io/github/languages/count/abusomani/go-palette)](https://img.shields.io/github/languages/count/abusomani/go-palette)
-[![Repository size](https://img.shields.io/github/repo-size/abusomani/go-palette)](https://img.shields.io/github/repo-size/abusomani/go-palette)
+<!-- [![Repository size](https://img.shields.io/github/repo-size/abusomani/go-palette)](https://img.shields.io/github/repo-size/abusomani/go-palette) -->
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/abusomani/go-palette/blob/main/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/abusomani/go-palette)](https://goreportcard.com/report/github.com/abusomani/go-palette)
+<!-- [![Go Report Card](https://goreportcard.com/badge/github.com/abusomani/go-palette)](https://goreportcard.com/report/github.com/abusomani/go-palette) -->
 [![Go Reference](https://pkg.go.dev/badge/github.com/abusomani/go-palette.svg)](https://pkg.go.dev/github.com/abusomani/go-palette)
-[![codecov](https://codecov.io/gh/abusomani/go-palette/branch/master/graph/badge.svg?token=DALBX2YDUQ)](https://codecov.io/gh/abusomani/go-palette)
+[![Coverage Status](https://coveralls.io/repos/github/abusomani/go-palette/badge.svg?branch=main)](https://coveralls.io/github/abusomani/go-palette?branch=main)
 
 Elegant and convenient style definitions using ANSI colors for Go. 
 Fully compatible and wraps the `fmt` [library](https://pkg.go.dev/fmt) for nice terminal layouts. 
