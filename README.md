@@ -13,6 +13,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/abusomani/go-palette)](https://goreportcard.com/report/github.com/abusomani/go-palette)
 [![Go Reference](https://pkg.go.dev/badge/github.com/abusomani/go-palette.svg)](https://pkg.go.dev/github.com/abusomani/go-palette)
 [![Coverage Status](https://coveralls.io/repos/github/abusomani/go-palette/badge.svg?branch=main)](https://coveralls.io/github/abusomani/go-palette?branch=main)
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go#advanced-console-uis)
 
 Elegant and convenient style definitions using ANSI colors. 
 Fully compatible and wraps the `fmt` [library](https://pkg.go.dev/fmt) for nice terminal layouts. 
@@ -78,13 +79,15 @@ The following text formats are supported.
 
 ![supported text formats](https://res.cloudinary.com/dahkenlmo/image/upload/v1678038120/special-effects_bwuurg.gif)
 
+## Prerequisites
+
+A go module where you want to integrate go-palette. To create one, follow this [guide](https://go.dev/doc/tutorial/create-module).
 
 ## Installation
 
 ```
 go get github.com/abusomani/go-palette
 ```
-
 
 
 ## Usage
