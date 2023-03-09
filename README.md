@@ -100,7 +100,7 @@ A very useful feature of Go’s import statement are aliases. A common use case 
 
 In this example, we save ourselves having to type `palette` everytime we want to call one of the library’s functions, we just use `pal` instead.
 
-```
+```go
 import (
     pal "github.com/abusomani/go-palette/palette"
 )
@@ -108,7 +108,7 @@ import (
 
 #### Example using Color names
 
-```
+```go
 package main
 
 import (
@@ -130,7 +130,7 @@ func main() {
 
 #### Example using Color codes
 
-```
+```go
 package main
 
 import (
@@ -154,7 +154,7 @@ func main() {
 
 #### Example using Special effects
 
-```
+```go
 package main
 
 import (
@@ -186,7 +186,7 @@ func main() {
 
 Flush resets the Palette options with default values and disables the Palette.
 
-```
+```go
 package main
 
 import (
